@@ -22,7 +22,3 @@ sed -i 's/192.168.1.1/10.10.10.254/g' package/base-files/files/bin/config_genera
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
-
-sed -i 's/services/network/g' feeds/luci/applications/luci-app-upnp/luasrc/controller/*.lua
-sed -i 's/services/network/g' feeds/luci/applications/luci-app-upnp/luasrc/model/cbi/upnp/*.lua
-sed -i 's/services/network/g' feeds/luci/applications/luci-app-upnp/luasrc/view/*.htm
