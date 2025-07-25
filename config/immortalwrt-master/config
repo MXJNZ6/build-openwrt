@@ -19,8 +19,18 @@ CONFIG_MBEDTLS_CTR_DRBG_C=y
 CONFIG_MBEDTLS_SSL_TLS_C=y
 CONFIG_MBEDTLS_SSL_PROTO_DTLS=y
 CONFIG_MBEDTLS_ECP_MAX_BITS=256
+# Boost Libraries (required for libtorrent/qBittorrent/Transmission)
+CONFIG_PACKAGE_boost=y
+CONFIG_PACKAGE_boost-system=y
+CONFIG_PACKAGE_boost-chrono=y
+CONFIG_PACKAGE_boost-random=y
+CONFIG_PACKAGE_boost-date_time=y
+CONFIG_PACKAGE_boost-program_options=y
+CONFIG_PACKAGE_boost-thread=y
+CONFIG_PACKAGE_boost-filesystem=y
+CONFIG_PACKAGE_boost-context=y
+CONFIG_PACKAGE_boost-atomic=y# Applications
 
-# Applications
 #
 # CONFIG_PACKAGE_luci-app-3cat is not set
 # CONFIG_PACKAGE_luci-app-3ginfo-lite is not set
