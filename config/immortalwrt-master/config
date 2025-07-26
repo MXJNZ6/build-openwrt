@@ -20,7 +20,7 @@ CONFIG_PACKAGE_luci-theme-openwrt-2020=y
 CONFIG_PACKAGE_docker-compose=y
 CONFIG_PACKAGE_openssh-sftp-server=y
 CONFIG_PACKAGE_snmpd=y
-
+CONFIG_PACKAGE_uhttpd=y
 CONFIG_PACKAGE_libmbedtls=y
 CONFIG_MBEDTLS_ECP_C=y
 CONFIG_MBEDTLS_ECDSA_C=y
