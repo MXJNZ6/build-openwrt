@@ -182,7 +182,6 @@ jobs:
           body_path: release.txt
           files: |
             ${{ env.FIRMWARE }}/*
-            ${{ env.FIRMWARE }}/${{ env.CONFIG_FILE }}
             
       - name: Delete workflow runs
         uses: GitRML/delete-workflow-runs@main
